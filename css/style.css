@@ -28,9 +28,9 @@ body {
   float: left;
 }
 
-.grid__item--height1 { height: 140px; }
-.grid__item--height2 { height: 220px; }
-.grid__item--height3 { height: 300px; }
+.grid__item--height1 { height: 150px; }
+.grid__item--height2 { height: 250px; }
+.grid__item--height3 { height: 350px; }
 
 .grid__item--width1 { width: 33%; }
 .grid__item--width2 { width: 66%; }
