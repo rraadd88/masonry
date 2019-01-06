@@ -21,7 +21,7 @@ body {
   width: 32%;
 }
 
-.grid__gutter-sizer { width: 1%; }
+.grid__gutter-sizer { width: 2%; }
 
 .grid__item {
   margin-bottom: 5px;
