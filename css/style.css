@@ -3,7 +3,8 @@ body {
   /*line-height: 1.4;*/
   font-size: 25px;
   /*padding: 20px;*/
-  max-width: 640px;
+  max-width: 1200px;
+  max-height: 1200px;  
   margin: 10 auto;
 }
 
@@ -32,10 +33,10 @@ body {
 .grid__item--width75 { width: 75%; }
 .grid__item--width100 { width: 100%; }
 
-.grid__item--height25 { height: 200px; }
-.grid__item--height50 { height: 200px; }
-.grid__item--height75 { height: 250px; }
-.grid__item--height100 { height: 350px; }
+.grid__item--height25 { height: 25%; }
+.grid__item--height50 { height: 50%; }
+.grid__item--height75 { height: 75%; }
+.grid__item--height100 { height: 100%; }
 
 
 .grid__item img {
