@@ -18,23 +18,25 @@ body {
 */
 .grid__item,
 .grid__col-sizer {
-  width: 32%;
+  width: 25%;
 }
 
-.grid__gutter-sizer { width: 2%; }
+.grid__gutter-sizer { width: 0%; }
 
 .grid__item {
   margin-bottom: 5px;
   float: left;
 }
+.grid__item--width25 { width: 25%; }
+.grid__item--width50 { width: 50%; }
+.grid__item--width75 { width: 75%; }
+.grid__item--width100 { width: 100%; }
 
-.grid__item--height1 { height: 200px; }
-.grid__item--height2 { height: 250px; }
-.grid__item--height3 { height: 350px; }
+.grid__item--height25 { height: 200px; }
+.grid__item--height50 { height: 200px; }
+.grid__item--height75 { height: 250px; }
+.grid__item--height100 { height: 350px; }
 
-.grid__item--width1 { width: 33%; }
-.grid__item--width2 { width: 66%; }
-.grid__item--width3 { width: 100%; }
 
 .grid__item img {
   display: block;
