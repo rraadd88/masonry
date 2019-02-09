@@ -6,6 +6,7 @@ body {
   max-width: 1200px;
 /*   max-height: 1200px;   */
   margin: 10 auto;
+  zoom: 78%;  
 }
 
 .grid {
