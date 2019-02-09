@@ -7,10 +7,10 @@ var msnry = new Masonry( grid, {
   columnWidth: '.grid__col-sizer',
   gutter: '.grid__gutter-sizer',
   percentPosition: true,
-  stagger: 30,
+  // stagger: 30,
   // nicer reveal transition
-  visibleStyle: { transform: 'translateY(0)', opacity: 1 },
-  hiddenStyle: { transform: 'translateY(100px)', opacity: 0 },
+  // visibleStyle: { transform: 'translateY(0)', opacity: 1 },
+  // hiddenStyle: { transform: 'translateY(100px)', opacity: 0 },
 });
 
 
@@ -25,16 +25,16 @@ imagesLoaded( grid, function() {
 //-------------------------------------//
 // hack CodePen to load pens as pages
 
-var nextPenSlugs = [
-  '202252c2f5f192688dada252913ccf13',
-  'a308f05af22690139e9a2bc655bfe3ee',
-  '6c9ff23039157ee37b3ab982245eef28',
-];
+// var nextPenSlugs = [
+//   '202252c2f5f192688dada252913ccf13',
+//   'a308f05af22690139e9a2bc655bfe3ee',
+//   '6c9ff23039157ee37b3ab982245eef28',
+// ];
 
-function getPenPath() {
-  var slug = nextPenSlugs[ this.loadCount ];
-  return 'https://s.codepen.io/desandro/debug/' + slug;
-}
+// function getPenPath() {
+//   var slug = nextPenSlugs[ this.loadCount ];
+//   return 'https://s.codepen.io/desandro/debug/' + slug;
+// }
 
 //-------------------------------------//
 // init Infinte Scroll
